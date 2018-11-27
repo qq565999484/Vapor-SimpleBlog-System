@@ -1,0 +1,15 @@
+body {
+    padding-top: 100px;
+}
+div.main {
+    margin: 0 auto;
+    width: 400px;
+    border: 1px solid;
+    border-color: lavender;
+    border-radius: 5px;
+}
+input {
+    text-align: center;
+}
+
+

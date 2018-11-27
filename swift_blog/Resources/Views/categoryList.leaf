@@ -1,0 +1,49 @@
+
+#set("head-title") {配置}
+
+#set("body") {
+<div class="layui-inline" style="float: right; margin:10px;">
+    <button class="layui-btn" onclick="add()">
+        <i class="layui-icon">&#xe608;</i> 添加
+    </button>
+</div>
+<table class="layui-table" lay-skin="row" id="data-area">
+    <colgroup>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>添加时间</th>
+            <th>修改时间</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        #for(category in categories) {
+        <tr>
+            <td>#(category.title)</td>
+            <td>#date(category.createAt)</td>
+            <td>#date(category.updateAt)</td>
+            <td>
+                <a href="/admin/category/add/#(category.id)" >
+                    <i class="layui-icon">&#xe642;</i> 修改
+                </a>
+                <a href="javascript:void(0)" onclick="del(#(category.id))">
+                    <i class="layui-icon">&#x1006;</i> 删除
+                </a>
+            </td>
+           
+        </tr>
+         }
+    </tbody>
+</table>
+
+<script src="/js/layui/layui.js" charset="utf-8"></script>
+<script src="/js/category.js" charset="utf-8"></script>
+
+}
+
+#embed("base")

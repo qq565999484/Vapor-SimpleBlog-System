@@ -1,0 +1,9 @@
+#set("head-title") {首页}
+#set("css-title") {home}
+#set("content") {
+<div class="layui-container">
+    <h1>我的一天</h1>
+</div>
+}
+#embed("head")
+

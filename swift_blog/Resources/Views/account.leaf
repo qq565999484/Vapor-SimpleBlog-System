@@ -1,0 +1,75 @@
+#set("head-title"){后台系统}
+#set("body") {
+<!-- 布局容器 -->
+<div class="layui-layout layui-layout-admin">
+    <!-- 头部 -->
+    <div class="layui-header">
+        <div class="layui-main">
+            <!-- logo -->
+            <a href="/" style="color: #c2c2c2; font-size: 18px; line-height: 60px;">后台管理系统</a>
+            <!-- 水平导航 -->
+            <ul class="layui-nav layui-layout-right">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">
+                        #(username).欢迎您
+                    <dl class="layui-nav-child">
+                        <dd><a href="/admin/logout">注销</a></dd>
+                    </dl>
+                    
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--侧边栏 --> <!--这些分类亦可动态获取-->
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <ul class="layui-nav layui-nav-tree" lay-filter="left-nav" style="border-radius: 0;">
+                <li class="layui-nav-item layui-nav-itemed">
+                    <a class="" href="javascript:;">系统管理</a>
+                    <dl class="layui-nav-child">
+                        <dd class="layui-this"><a data-url="config" data-id="0">系统设置</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">内容管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;" data-url="category" data-id="1">分类管理</a></dd>
+                        <dd><a href="javascript:;" data-url="post" data-id="2">博文列表</a></dd>
+                        <dd><a href="javascript:;" data-url="post/add" data-id="3">博文添加</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- 主体 -->
+    <div class="layui-body">
+        <!-- 顶部切换卡 -->
+        <div class="layui-tab layui-tab-brief" lay-allowClose="true" lay-filter="top-tab" lay-allowClose="true" style="margin: 0;">
+            <ul class="layui-tab-title">
+                <li class="layui-this" lay-id="index-0" >系统设置</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <iframe src="config" frameborder="0" scrolling="auto" width="100%" height="700px"></iframe>
+               </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 底部 -->
+    <div class="layui-footer" style="text-align: center; line-height: 44px;">
+        Copyright © 2018-2020 All Rights Reserved. 前端网(w3cvip.com).保留所有权利 蜀ICP备14031517号-2
+    </div>
+</div>
+
+<link rel="stylesheet" href="/styles/account.css">
+<script src="/js/layui/layui.js" charset="utf-8"></script>
+<script src="/js/account.js" charset="utf-8"></script>
+
+}
+
+#embed("base")

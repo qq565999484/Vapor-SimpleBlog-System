@@ -1,0 +1,103 @@
+#set("head-title") {添加文章}
+#set("body") {
+<script src="/js/layui/layui.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/js/ueditor/ueditor.all.min.js"></script>
+<script src="/js/post.js" charset="utf-8"></script>
+
+<form class="layui-form" action="/admin/post/add"  method="post" style="margin:20px">
+    <div class="layui-form-item layui-hide">
+        <div class="layui-input-block">
+        #if(post.id) {
+               <input type="text" name="id" value="#(post.id)">
+        }else {
+              <input type="text" name="id">
+        }
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">类型</label>
+        <div class="layui-input-block">
+            <input type="radio" name="types" value="0" title="博文" #if(post.types==0) {checked} >
+            <input type="radio" name="types" value="1" title="下载" #if(post.types==1) {checked}>
+    </div>
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">标题：</label>
+        <div class="layui-input-block">
+            <input type="text" name="title" required value="#(post.title)" lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">类别</label>
+        <div class="layui-input-block">
+            <select name="categoryId" lay-verify="required">
+                <option value=""></option>
+                #for(category in categories) {
+                <option value="#(category.id)" >#(category.title)</option>
+                }
+            </select>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">加入首页</label>
+        <div class="layui-input-block">
+            <input type="checkbox" name="isTop" #if(post.isTop == 1) { checked } value="1" title="置首" >
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">链接</label>
+        <div class="layui-input-block">
+            <input type="text" name="url" lay-verify="url" value="#(post.url)" placeholder="请输入下载链接" autocomplete="off" class="layui-input">
+         </div>
+    </div>
+    
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">标签</label>
+        <div class="layui-input-block">
+            <input type="text" name="tags" value="#(post.tags)"  placeholder="标签，隔开" autocomplete="off" class="layui-input">
+                </div>
+    </div>
+    
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">描述</label>
+        <div class="layui-input-block">
+            <textarea name="info" placeholder="请输入内容" class="layui-textarea">#(post.info)</textarea>
+            
+        </div>
+    </div>
+    
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">图片</label>
+        <div class="layui-input-block">
+            <input name="image" id="image" value="#(post.image)" placeholder="请输入内容" style="width: 300px; maigin-right: 10px; float: left;"  class="layui-input">
+            <button type="button" class="layui-btn" id="test1" >
+                <i class="layui-icon">&#xe67c;</i>上传图片
+            </button>
+        </div>
+    </div>
+    
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">内容</label>
+        <div class="layui-input-block">
+            <textarea id="content" name="content">#(post.content)</textarea>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+
+}
+
+#embed("base")

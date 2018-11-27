@@ -1,0 +1,53 @@
+#set("head-title") { 后台登录 }
+#set("body") {
+<!--layui-clear-->
+<div class="login-main">
+    <div class="main layui-main">
+        <form class="layui-form" method="post">
+            <div class="fly-panel fly-panel-user" pad20>
+                <div class="layui-tab layui-tab-brief">
+                    <ul class="layui-tab-title">
+                        <li class="layui-this">欢迎登录后台系统</li>
+                    </ul>
+                    <div class="main2 layui-form layui-tab-content" id="LAY_ucm" style="padding-top: 20px; padding-left: 50px;  ">
+                        
+                        <div class="layui-form layui-form-pane">
+                            
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">用户名</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="username" required lay-verify="username" placeholder="用户名"
+                                        autocomplete="off" class="layui-input">
+                                        </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">密码</label>
+                                <div class="layui-input-inline">
+                                    <input type="password" name="password" required lay-verify="password" placeholder="密码"
+                                        autocomplete="off" class="layui-input">
+                                        </div>
+                            </div>
+                            <div class="layui-form-item" style="float: right; margin-right: 42px;">
+                                <input type="checkbox" name="is_top" value="1" title="记住密码">
+                                    </div>
+                            
+                            <div class="layui-form-item">
+                                <button lay-submit class="layui-btn btn-submit" style="width: 300px; border-radius:3px"
+                                    lay-submit="" lay-filter="sub">立即登录</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<link rel="stylesheet" href="/styles/login.css">
+<script src="/js/layui/layui.js" charset="utf-8"></script>
+<script src="/js/login.js" charset="utf-8"></script>
+
+}
+
+#embed("base")
+
