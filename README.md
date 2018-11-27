@@ -5,9 +5,8 @@
 ## 编译安装说明：
 
 1 . 安装Vapor
-
-      [Vapor安装指南](https://docs.vapor.codes/3.0/install/macos/)
-      
+    >[Vapor安装指南](https://docs.vapor.codes/3.0/install/macos/)
+    
 2 . 下载安装
 
     $ git clone https://github.com/qq565999484/Vapor-SimpleBlog-System.git
