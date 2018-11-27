@@ -38,6 +38,7 @@
  6 . 浏览器演示
 http://localhost:8080/admin/login (后台)
 ##在数据库中添加默认账户和密码（自己定）
+
  7 . 感谢
 [使用Go-beego-layui开发个人简易Blog](https://github.com/Echosong/beego_blog)
 
