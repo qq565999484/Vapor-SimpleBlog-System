@@ -92,7 +92,6 @@
 		OBJ_1263 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1264 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
 		OBJ_1265 /* AsyncExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "VaporExt::AsyncExt::Product" /* AsyncExt.framework */; };
-		OBJ_1266 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1267 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1268 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1269 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -147,7 +146,6 @@
 		OBJ_1430 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1431 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
 		OBJ_1432 /* AsyncExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "VaporExt::AsyncExt::Product" /* AsyncExt.framework */; };
-		OBJ_1433 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1434 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1435 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1436 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -155,33 +153,10 @@
 		OBJ_1438 /* CNIOAtomics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOAtomics::Product" /* CNIOAtomics.framework */; };
 		OBJ_1439 /* CNIODarwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIODarwin::Product" /* CNIODarwin.framework */; };
 		OBJ_1440 /* CNIOLinux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOLinux::Product" /* CNIOLinux.framework */; };
-		OBJ_1499 /* Async+NIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_960 /* Async+NIO.swift */; };
-		OBJ_1500 /* AsyncError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_961 /* AsyncError.swift */; };
-		OBJ_1501 /* Collection+Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_962 /* Collection+Future.swift */; };
-		OBJ_1502 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_963 /* Deprecated.swift */; };
-		OBJ_1503 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_964 /* Exports.swift */; };
-		OBJ_1504 /* Future+DoCatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_965 /* Future+DoCatch.swift */; };
-		OBJ_1505 /* Future+Flatten.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_966 /* Future+Flatten.swift */; };
-		OBJ_1506 /* Future+Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_967 /* Future+Global.swift */; };
-		OBJ_1507 /* Future+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_968 /* Future+Map.swift */; };
-		OBJ_1508 /* Future+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_969 /* Future+Transform.swift */; };
-		OBJ_1509 /* Future+Variadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_970 /* Future+Variadic.swift */; };
-		OBJ_1510 /* Future+Void.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_971 /* Future+Void.swift */; };
-		OBJ_1511 /* FutureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_972 /* FutureType.swift */; };
-		OBJ_1512 /* QueueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_973 /* QueueHandler.swift */; };
-		OBJ_1513 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_974 /* Worker.swift */; };
-		OBJ_1515 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
-		OBJ_1516 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
-		OBJ_1517 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
-		OBJ_1518 /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOConcurrencyHelpers::Product" /* NIOConcurrencyHelpers.framework */; };
-		OBJ_1519 /* CNIOAtomics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOAtomics::Product" /* CNIOAtomics.framework */; };
-		OBJ_1520 /* CNIODarwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIODarwin::Product" /* CNIODarwin.framework */; };
-		OBJ_1521 /* CNIOLinux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOLinux::Product" /* CNIOLinux.framework */; };
 		OBJ_1533 /* Exports.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Exports.swift */; };
 		OBJ_1534 /* Future+Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Future+Bool.swift */; };
 		OBJ_1535 /* Future+Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Future+Comparable.swift */; };
 		OBJ_1536 /* Future+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Future+Equatable.swift */; };
-		OBJ_1538 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1539 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1540 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1541 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -238,7 +213,6 @@
 		OBJ_1610 /* CBase32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Crypto::CBase32::Product" /* CBase32.framework */; };
 		OBJ_1611 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1612 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_1613 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1614 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1615 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1616 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -313,7 +287,6 @@
 		OBJ_1803 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_1804 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1805 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_1806 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1807 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1808 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1809 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -356,7 +329,6 @@
 		OBJ_1867 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_1868 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1869 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_1870 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1871 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1872 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1873 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -394,7 +366,6 @@
 		OBJ_1930 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_1931 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1932 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_1933 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1934 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_1935 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_1936 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -428,7 +399,6 @@
 		OBJ_1986 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Core::Product" /* Core.framework */; };
 		OBJ_1987 /* NIOFoundationCompat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */; };
 		OBJ_1988 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
-		OBJ_1989 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_1990 /* Random.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Crypto::Random::Product" /* Random.framework */; };
 		OBJ_1991 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_1992 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
@@ -479,7 +449,6 @@
 		OBJ_2067 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2068 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2069 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2070 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2071 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2072 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2073 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -550,7 +519,6 @@
 		OBJ_2167 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2168 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2169 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2170 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2171 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2172 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2173 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -602,7 +570,6 @@
 		OBJ_2242 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2243 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2244 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2245 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2246 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2247 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2248 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -651,7 +618,6 @@
 		OBJ_2337 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2338 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2339 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2340 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2341 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2342 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2343 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -700,7 +666,6 @@
 		OBJ_2431 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2432 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2433 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2434 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2435 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2436 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2437 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -766,7 +731,6 @@
 		OBJ_2537 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2538 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2539 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2540 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2541 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2542 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2543 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -796,7 +760,6 @@
 		OBJ_2608 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2609 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2610 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2611 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2612 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2613 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2614 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -840,7 +803,6 @@
 		OBJ_2677 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2678 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2679 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2680 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2681 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2682 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2683 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -864,7 +826,6 @@
 		OBJ_2730 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2731 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2732 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2733 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2734 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2735 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2736 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -882,7 +843,6 @@
 		OBJ_2773 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2774 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2775 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2776 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2777 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2778 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2779 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -901,7 +861,6 @@
 		OBJ_2810 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Core::Product" /* Core.framework */; };
 		OBJ_2811 /* NIOFoundationCompat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */; };
 		OBJ_2812 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
-		OBJ_2813 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2814 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2815 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2816 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
@@ -992,7 +951,6 @@
 		OBJ_2924 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_2925 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_2926 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_2927 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_2928 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_2929 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_2930 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1234,7 +1192,6 @@
 		OBJ_3289 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3290 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3291 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3292 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3293 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3294 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3295 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1278,7 +1235,6 @@
 		OBJ_3381 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3382 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3383 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3384 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3385 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3386 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3387 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1303,7 +1259,6 @@
 		OBJ_3431 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Core::Product" /* Core.framework */; };
 		OBJ_3432 /* NIOFoundationCompat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOFoundationCompat::Product" /* NIOFoundationCompat.framework */; };
 		OBJ_3433 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
-		OBJ_3434 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3435 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3436 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3437 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
@@ -1361,7 +1316,6 @@
 		OBJ_3514 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3515 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
 		OBJ_3516 /* AsyncExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "VaporExt::AsyncExt::Product" /* AsyncExt.framework */; };
-		OBJ_3517 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3518 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3519 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3520 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1435,7 +1389,6 @@
 		OBJ_3647 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3648 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3649 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3650 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3651 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3652 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3653 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1469,7 +1422,6 @@
 		OBJ_3706 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3707 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3708 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3709 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3710 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3711 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3712 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1486,7 +1438,6 @@
 		OBJ_3741 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3742 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3743 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3744 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3745 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3746 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3747 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1542,7 +1493,6 @@
 		OBJ_3821 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3822 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3823 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3824 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3825 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3826 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3827 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1564,7 +1514,6 @@
 		OBJ_3867 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3868 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3869 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3870 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3871 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3872 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3873 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1596,7 +1545,6 @@
 		OBJ_3922 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_3923 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_3924 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_3925 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_3926 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_3927 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_3928 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1709,7 +1657,6 @@
 		OBJ_4058 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_4059 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_4060 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_4061 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_4062 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_4063 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_4064 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1755,7 +1702,6 @@
 		OBJ_4146 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_4147 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
 		OBJ_4148 /* AsyncExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "VaporExt::AsyncExt::Product" /* AsyncExt.framework */; };
-		OBJ_4149 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_4150 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_4151 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_4152 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -1789,7 +1735,6 @@
 		OBJ_4239 /* COperatingSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::COperatingSystem::Product" /* COperatingSystem.framework */; };
 		OBJ_4240 /* Bits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Bits::Product" /* Bits.framework */; };
 		OBJ_4241 /* Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Debugging::Product" /* Debugging.framework */; };
-		OBJ_4242 /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Core::Async::Product" /* Async.framework */; };
 		OBJ_4243 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIO::Product" /* NIO.framework */; };
 		OBJ_4244 /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */; };
 		OBJ_4245 /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "swift-nio::NIOPriorityQueue::Product" /* NIOPriorityQueue.framework */; };
@@ -2315,62 +2260,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A166E219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
-		FB8A166F219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::NIO";
-			remoteInfo = NIO;
-		};
-		FB8A1670219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::CNIOSHA1";
-			remoteInfo = CNIOSHA1;
-		};
-		FB8A1671219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::NIOPriorityQueue";
-			remoteInfo = NIOPriorityQueue;
-		};
-		FB8A1672219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::NIOConcurrencyHelpers";
-			remoteInfo = NIOConcurrencyHelpers;
-		};
-		FB8A1673219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::CNIOAtomics";
-			remoteInfo = CNIOAtomics;
-		};
-		FB8A1674219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::CNIODarwin";
-			remoteInfo = CNIODarwin;
-		};
-		FB8A1675219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "swift-nio::CNIOLinux";
-			remoteInfo = CNIOLinux;
-		};
 		FB8A1676219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -2447,13 +2336,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A1681219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1682219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2573,13 +2455,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::COperatingSystem";
 			remoteInfo = COperatingSystem;
-		};
-		FB8A1693219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1694219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2819,13 +2694,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A16B6219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A16B7219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -2924,13 +2792,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A16C5219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A16C6219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -3021,13 +2882,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A16D3219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A16D4219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3127,13 +2981,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A16E2219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A16E3219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -3218,13 +3065,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A16EF219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A16F0219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -3308,13 +3148,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::COperatingSystem";
 			remoteInfo = COperatingSystem;
-		};
-		FB8A16FC219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A16FD219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3406,13 +3239,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::COperatingSystem";
 			remoteInfo = COperatingSystem;
-		};
-		FB8A170A219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A170B219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3553,13 +3379,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A171F219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1720219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3729,13 +3548,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A1738219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A1739219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -3819,13 +3631,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A1745219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1746219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -3924,13 +3729,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A1754219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1755219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4036,13 +3834,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A1764219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1765219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4247,13 +4038,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A1782219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A1783219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -4429,13 +4213,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A179C219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A179D219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -4540,13 +4317,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A17AC219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A17AD219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4666,13 +4436,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A17BE219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A17BF219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4827,13 +4590,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A17D5219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A17D6219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5031,13 +4787,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A17F2219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A17F3219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -5171,13 +4920,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A1806219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A1807219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -5282,13 +5024,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A1816219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1817219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5478,13 +5213,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A1832219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1833219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5681,13 +5409,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A184F219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1850219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5892,13 +5613,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A186D219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A186E219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -6017,13 +5731,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
-		};
-		FB8A187F219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1880219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -6312,13 +6019,6 @@
 			remoteGlobalIDString = "Core::Debugging";
 			remoteInfo = Debugging;
 		};
-		FB8A18A9219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A18AA219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -6606,13 +6306,6 @@
 			remoteGlobalIDString = "VaporExt::AsyncExt";
 			remoteInfo = AsyncExt;
 		};
-		FB8A18D3219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A18D4219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -6661,13 +6354,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "swift-nio::CNIOLinux";
 			remoteInfo = CNIOLinux;
-		};
-		FB8A18DB219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A18DC219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -6969,13 +6655,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "VaporExt::AsyncExt";
 			remoteInfo = AsyncExt;
-		};
-		FB8A1907219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
 		};
 		FB8A1908219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -7348,13 +7027,6 @@
 			remoteGlobalIDString = "VaporExt::AsyncExt";
 			remoteInfo = AsyncExt;
 		};
-		FB8A193D219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A193E219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -7726,13 +7398,6 @@
 			remoteGlobalIDString = "VaporExt::AsyncExt";
 			remoteInfo = AsyncExt;
 		};
-		FB8A1973219BB742002F85C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "Core::Async";
-			remoteInfo = Async;
-		};
 		FB8A1974219BB742002F85C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -7796,7 +7461,6 @@
 		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"Core::Async::Product" /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Async.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Core::Bits::Product" /* Bits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Core::COperatingSystem::Product" /* COperatingSystem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = COperatingSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Core::Core::Product" /* Core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -8834,7 +8498,6 @@
 				OBJ_1263 /* Bits.framework in Frameworks */,
 				OBJ_1264 /* Debugging.framework in Frameworks */,
 				OBJ_1265 /* AsyncExt.framework in Frameworks */,
-				OBJ_1266 /* Async.framework in Frameworks */,
 				OBJ_1267 /* NIO.framework in Frameworks */,
 				OBJ_1268 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1269 /* NIOPriorityQueue.framework in Frameworks */,
@@ -8895,7 +8558,6 @@
 				OBJ_1430 /* Bits.framework in Frameworks */,
 				OBJ_1431 /* Debugging.framework in Frameworks */,
 				OBJ_1432 /* AsyncExt.framework in Frameworks */,
-				OBJ_1433 /* Async.framework in Frameworks */,
 				OBJ_1434 /* NIO.framework in Frameworks */,
 				OBJ_1435 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1436 /* NIOPriorityQueue.framework in Frameworks */,
@@ -8906,25 +8568,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_1514 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_1515 /* NIO.framework in Frameworks */,
-				OBJ_1516 /* CNIOSHA1.framework in Frameworks */,
-				OBJ_1517 /* NIOPriorityQueue.framework in Frameworks */,
-				OBJ_1518 /* NIOConcurrencyHelpers.framework in Frameworks */,
-				OBJ_1519 /* CNIOAtomics.framework in Frameworks */,
-				OBJ_1520 /* CNIODarwin.framework in Frameworks */,
-				OBJ_1521 /* CNIOLinux.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_1537 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_1538 /* Async.framework in Frameworks */,
 				OBJ_1539 /* NIO.framework in Frameworks */,
 				OBJ_1540 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1541 /* NIOPriorityQueue.framework in Frameworks */,
@@ -8970,7 +8617,6 @@
 				OBJ_1610 /* CBase32.framework in Frameworks */,
 				OBJ_1611 /* Bits.framework in Frameworks */,
 				OBJ_1612 /* Debugging.framework in Frameworks */,
-				OBJ_1613 /* Async.framework in Frameworks */,
 				OBJ_1614 /* NIO.framework in Frameworks */,
 				OBJ_1615 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1616 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9085,7 +8731,6 @@
 				OBJ_1803 /* COperatingSystem.framework in Frameworks */,
 				OBJ_1804 /* Bits.framework in Frameworks */,
 				OBJ_1805 /* Debugging.framework in Frameworks */,
-				OBJ_1806 /* Async.framework in Frameworks */,
 				OBJ_1807 /* NIO.framework in Frameworks */,
 				OBJ_1808 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1809 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9107,7 +8752,6 @@
 				OBJ_1867 /* COperatingSystem.framework in Frameworks */,
 				OBJ_1868 /* Bits.framework in Frameworks */,
 				OBJ_1869 /* Debugging.framework in Frameworks */,
-				OBJ_1870 /* Async.framework in Frameworks */,
 				OBJ_1871 /* NIO.framework in Frameworks */,
 				OBJ_1872 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1873 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9126,7 +8770,6 @@
 				OBJ_1930 /* COperatingSystem.framework in Frameworks */,
 				OBJ_1931 /* Bits.framework in Frameworks */,
 				OBJ_1932 /* Debugging.framework in Frameworks */,
-				OBJ_1933 /* Async.framework in Frameworks */,
 				OBJ_1934 /* NIO.framework in Frameworks */,
 				OBJ_1935 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_1936 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9147,7 +8790,6 @@
 				OBJ_1986 /* Core.framework in Frameworks */,
 				OBJ_1987 /* NIOFoundationCompat.framework in Frameworks */,
 				OBJ_1988 /* COperatingSystem.framework in Frameworks */,
-				OBJ_1989 /* Async.framework in Frameworks */,
 				OBJ_1990 /* Random.framework in Frameworks */,
 				OBJ_1991 /* Bits.framework in Frameworks */,
 				OBJ_1992 /* NIO.framework in Frameworks */,
@@ -9174,7 +8816,6 @@
 				OBJ_2067 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2068 /* Bits.framework in Frameworks */,
 				OBJ_2069 /* Debugging.framework in Frameworks */,
-				OBJ_2070 /* Async.framework in Frameworks */,
 				OBJ_2071 /* NIO.framework in Frameworks */,
 				OBJ_2072 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2073 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9206,7 +8847,6 @@
 				OBJ_2167 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2168 /* Bits.framework in Frameworks */,
 				OBJ_2169 /* Debugging.framework in Frameworks */,
-				OBJ_2170 /* Async.framework in Frameworks */,
 				OBJ_2171 /* NIO.framework in Frameworks */,
 				OBJ_2172 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2173 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9254,7 +8894,6 @@
 				OBJ_2242 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2243 /* Bits.framework in Frameworks */,
 				OBJ_2244 /* Debugging.framework in Frameworks */,
-				OBJ_2245 /* Async.framework in Frameworks */,
 				OBJ_2246 /* NIO.framework in Frameworks */,
 				OBJ_2247 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2248 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9291,7 +8930,6 @@
 				OBJ_2337 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2338 /* Bits.framework in Frameworks */,
 				OBJ_2339 /* Debugging.framework in Frameworks */,
-				OBJ_2340 /* Async.framework in Frameworks */,
 				OBJ_2341 /* NIO.framework in Frameworks */,
 				OBJ_2342 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2343 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9328,7 +8966,6 @@
 				OBJ_2431 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2432 /* Bits.framework in Frameworks */,
 				OBJ_2433 /* Debugging.framework in Frameworks */,
-				OBJ_2434 /* Async.framework in Frameworks */,
 				OBJ_2435 /* NIO.framework in Frameworks */,
 				OBJ_2436 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2437 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9366,7 +9003,6 @@
 				OBJ_2537 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2538 /* Bits.framework in Frameworks */,
 				OBJ_2539 /* Debugging.framework in Frameworks */,
-				OBJ_2540 /* Async.framework in Frameworks */,
 				OBJ_2541 /* NIO.framework in Frameworks */,
 				OBJ_2542 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2543 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9393,7 +9029,6 @@
 				OBJ_2608 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2609 /* Bits.framework in Frameworks */,
 				OBJ_2610 /* Debugging.framework in Frameworks */,
-				OBJ_2611 /* Async.framework in Frameworks */,
 				OBJ_2612 /* NIO.framework in Frameworks */,
 				OBJ_2613 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2614 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9419,7 +9054,6 @@
 				OBJ_2677 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2678 /* Bits.framework in Frameworks */,
 				OBJ_2679 /* Debugging.framework in Frameworks */,
-				OBJ_2680 /* Async.framework in Frameworks */,
 				OBJ_2681 /* NIO.framework in Frameworks */,
 				OBJ_2682 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2683 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9441,7 +9075,6 @@
 				OBJ_2730 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2731 /* Bits.framework in Frameworks */,
 				OBJ_2732 /* Debugging.framework in Frameworks */,
-				OBJ_2733 /* Async.framework in Frameworks */,
 				OBJ_2734 /* NIO.framework in Frameworks */,
 				OBJ_2735 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2736 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9461,7 +9094,6 @@
 				OBJ_2773 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2774 /* Bits.framework in Frameworks */,
 				OBJ_2775 /* Debugging.framework in Frameworks */,
-				OBJ_2776 /* Async.framework in Frameworks */,
 				OBJ_2777 /* NIO.framework in Frameworks */,
 				OBJ_2778 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2779 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9479,7 +9111,6 @@
 				OBJ_2810 /* Core.framework in Frameworks */,
 				OBJ_2811 /* NIOFoundationCompat.framework in Frameworks */,
 				OBJ_2812 /* COperatingSystem.framework in Frameworks */,
-				OBJ_2813 /* Async.framework in Frameworks */,
 				OBJ_2814 /* Bits.framework in Frameworks */,
 				OBJ_2815 /* NIO.framework in Frameworks */,
 				OBJ_2816 /* CNIOSHA1.framework in Frameworks */,
@@ -9512,7 +9143,6 @@
 				OBJ_2924 /* COperatingSystem.framework in Frameworks */,
 				OBJ_2925 /* Bits.framework in Frameworks */,
 				OBJ_2926 /* Debugging.framework in Frameworks */,
-				OBJ_2927 /* Async.framework in Frameworks */,
 				OBJ_2928 /* NIO.framework in Frameworks */,
 				OBJ_2929 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_2930 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9648,7 +9278,6 @@
 				OBJ_3289 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3290 /* Bits.framework in Frameworks */,
 				OBJ_3291 /* Debugging.framework in Frameworks */,
-				OBJ_3292 /* Async.framework in Frameworks */,
 				OBJ_3293 /* NIO.framework in Frameworks */,
 				OBJ_3294 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3295 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9686,7 +9315,6 @@
 				OBJ_3381 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3382 /* Bits.framework in Frameworks */,
 				OBJ_3383 /* Debugging.framework in Frameworks */,
-				OBJ_3384 /* Async.framework in Frameworks */,
 				OBJ_3385 /* NIO.framework in Frameworks */,
 				OBJ_3386 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3387 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9705,7 +9333,6 @@
 				OBJ_3431 /* Core.framework in Frameworks */,
 				OBJ_3432 /* NIOFoundationCompat.framework in Frameworks */,
 				OBJ_3433 /* COperatingSystem.framework in Frameworks */,
-				OBJ_3434 /* Async.framework in Frameworks */,
 				OBJ_3435 /* Bits.framework in Frameworks */,
 				OBJ_3436 /* NIO.framework in Frameworks */,
 				OBJ_3437 /* CNIOSHA1.framework in Frameworks */,
@@ -9768,7 +9395,6 @@
 				OBJ_3514 /* Bits.framework in Frameworks */,
 				OBJ_3515 /* Debugging.framework in Frameworks */,
 				OBJ_3516 /* AsyncExt.framework in Frameworks */,
-				OBJ_3517 /* Async.framework in Frameworks */,
 				OBJ_3518 /* NIO.framework in Frameworks */,
 				OBJ_3519 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3520 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9790,7 +9416,6 @@
 				OBJ_3647 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3648 /* Bits.framework in Frameworks */,
 				OBJ_3649 /* Debugging.framework in Frameworks */,
-				OBJ_3650 /* Async.framework in Frameworks */,
 				OBJ_3651 /* NIO.framework in Frameworks */,
 				OBJ_3652 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3653 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9810,7 +9435,6 @@
 				OBJ_3706 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3707 /* Bits.framework in Frameworks */,
 				OBJ_3708 /* Debugging.framework in Frameworks */,
-				OBJ_3709 /* Async.framework in Frameworks */,
 				OBJ_3710 /* NIO.framework in Frameworks */,
 				OBJ_3711 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3712 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9831,7 +9455,6 @@
 				OBJ_3741 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3742 /* Bits.framework in Frameworks */,
 				OBJ_3743 /* Debugging.framework in Frameworks */,
-				OBJ_3744 /* Async.framework in Frameworks */,
 				OBJ_3745 /* NIO.framework in Frameworks */,
 				OBJ_3746 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3747 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9852,7 +9475,6 @@
 				OBJ_3821 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3822 /* Bits.framework in Frameworks */,
 				OBJ_3823 /* Debugging.framework in Frameworks */,
-				OBJ_3824 /* Async.framework in Frameworks */,
 				OBJ_3825 /* NIO.framework in Frameworks */,
 				OBJ_3826 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3827 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9872,7 +9494,6 @@
 				OBJ_3867 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3868 /* Bits.framework in Frameworks */,
 				OBJ_3869 /* Debugging.framework in Frameworks */,
-				OBJ_3870 /* Async.framework in Frameworks */,
 				OBJ_3871 /* NIO.framework in Frameworks */,
 				OBJ_3872 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3873 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9892,7 +9513,6 @@
 				OBJ_3922 /* COperatingSystem.framework in Frameworks */,
 				OBJ_3923 /* Bits.framework in Frameworks */,
 				OBJ_3924 /* Debugging.framework in Frameworks */,
-				OBJ_3925 /* Async.framework in Frameworks */,
 				OBJ_3926 /* NIO.framework in Frameworks */,
 				OBJ_3927 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_3928 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9936,7 +9556,6 @@
 				OBJ_4058 /* COperatingSystem.framework in Frameworks */,
 				OBJ_4059 /* Bits.framework in Frameworks */,
 				OBJ_4060 /* Debugging.framework in Frameworks */,
-				OBJ_4061 /* Async.framework in Frameworks */,
 				OBJ_4062 /* NIO.framework in Frameworks */,
 				OBJ_4063 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_4064 /* NIOPriorityQueue.framework in Frameworks */,
@@ -9987,7 +9606,6 @@
 				OBJ_4146 /* Bits.framework in Frameworks */,
 				OBJ_4147 /* Debugging.framework in Frameworks */,
 				OBJ_4148 /* AsyncExt.framework in Frameworks */,
-				OBJ_4149 /* Async.framework in Frameworks */,
 				OBJ_4150 /* NIO.framework in Frameworks */,
 				OBJ_4151 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_4152 /* NIOPriorityQueue.framework in Frameworks */,
@@ -10020,7 +9638,6 @@
 				OBJ_4239 /* COperatingSystem.framework in Frameworks */,
 				OBJ_4240 /* Bits.framework in Frameworks */,
 				OBJ_4241 /* Debugging.framework in Frameworks */,
-				OBJ_4242 /* Async.framework in Frameworks */,
 				OBJ_4243 /* NIO.framework in Frameworks */,
 				OBJ_4244 /* CNIOSHA1.framework in Frameworks */,
 				OBJ_4245 /* NIOPriorityQueue.framework in Frameworks */,
@@ -10609,7 +10226,6 @@
 				"Service::Service::Product" /* Service.framework */,
 				"Crypto::CBase32::Product" /* CBase32.framework */,
 				"DatabaseKit::DatabaseKit::Product" /* DatabaseKit.framework */,
-				"Core::Async::Product" /* Async.framework */,
 				"swift-nio-ssl::CNIOOpenSSL::Product" /* CNIOOpenSSL.framework */,
 				"Core::Bits::Product" /* Bits.framework */,
 				"swift-nio::CNIOSHA1::Product" /* CNIOSHA1.framework */,
@@ -13112,7 +12728,6 @@
 				OBJ_1649 /* PBXTargetDependency */,
 				OBJ_1650 /* PBXTargetDependency */,
 				OBJ_1651 /* PBXTargetDependency */,
-				OBJ_1652 /* PBXTargetDependency */,
 				OBJ_1653 /* PBXTargetDependency */,
 				OBJ_1654 /* PBXTargetDependency */,
 				OBJ_1655 /* PBXTargetDependency */,
@@ -13158,7 +12773,6 @@
 				OBJ_1819 /* PBXTargetDependency */,
 				OBJ_1820 /* PBXTargetDependency */,
 				OBJ_1821 /* PBXTargetDependency */,
-				OBJ_1822 /* PBXTargetDependency */,
 				OBJ_1823 /* PBXTargetDependency */,
 				OBJ_1824 /* PBXTargetDependency */,
 				OBJ_1825 /* PBXTargetDependency */,
@@ -13189,7 +12803,6 @@
 				OBJ_1882 /* PBXTargetDependency */,
 				OBJ_1883 /* PBXTargetDependency */,
 				OBJ_1884 /* PBXTargetDependency */,
-				OBJ_1885 /* PBXTargetDependency */,
 				OBJ_1886 /* PBXTargetDependency */,
 				OBJ_1887 /* PBXTargetDependency */,
 				OBJ_1888 /* PBXTargetDependency */,
@@ -13218,7 +12831,6 @@
 				OBJ_2786 /* PBXTargetDependency */,
 				OBJ_2787 /* PBXTargetDependency */,
 				OBJ_2788 /* PBXTargetDependency */,
-				OBJ_2789 /* PBXTargetDependency */,
 				OBJ_2790 /* PBXTargetDependency */,
 				OBJ_2791 /* PBXTargetDependency */,
 				OBJ_2792 /* PBXTargetDependency */,
@@ -13244,29 +12856,6 @@
 			);
 			name = ConsolePackageDescription;
 			productName = ConsolePackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
-		"Core::Async" /* Async */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_1495 /* Build configuration list for PBXNativeTarget "Async" */;
-			buildPhases = (
-				OBJ_1498 /* Sources */,
-				OBJ_1514 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_1522 /* PBXTargetDependency */,
-				OBJ_1523 /* PBXTargetDependency */,
-				OBJ_1524 /* PBXTargetDependency */,
-				OBJ_1525 /* PBXTargetDependency */,
-				OBJ_1526 /* PBXTargetDependency */,
-				OBJ_1527 /* PBXTargetDependency */,
-				OBJ_1528 /* PBXTargetDependency */,
-			);
-			name = Async;
-			productName = Async;
-			productReference = "Core::Async::Product" /* Async.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"Core::Bits" /* Bits */ = {
@@ -13323,7 +12912,6 @@
 				OBJ_1942 /* PBXTargetDependency */,
 				OBJ_1943 /* PBXTargetDependency */,
 				OBJ_1944 /* PBXTargetDependency */,
-				OBJ_1945 /* PBXTargetDependency */,
 				OBJ_1946 /* PBXTargetDependency */,
 				OBJ_1947 /* PBXTargetDependency */,
 				OBJ_1948 /* PBXTargetDependency */,
@@ -13431,7 +13019,6 @@
 				OBJ_2006 /* PBXTargetDependency */,
 				OBJ_2007 /* PBXTargetDependency */,
 				OBJ_2008 /* PBXTargetDependency */,
-				OBJ_2009 /* PBXTargetDependency */,
 				OBJ_2010 /* PBXTargetDependency */,
 				OBJ_2011 /* PBXTargetDependency */,
 				OBJ_2012 /* PBXTargetDependency */,
@@ -13506,7 +13093,6 @@
 				OBJ_2081 /* PBXTargetDependency */,
 				OBJ_2082 /* PBXTargetDependency */,
 				OBJ_2083 /* PBXTargetDependency */,
-				OBJ_2084 /* PBXTargetDependency */,
 				OBJ_2085 /* PBXTargetDependency */,
 				OBJ_2086 /* PBXTargetDependency */,
 				OBJ_2087 /* PBXTargetDependency */,
@@ -13554,7 +13140,6 @@
 				OBJ_2185 /* PBXTargetDependency */,
 				OBJ_2186 /* PBXTargetDependency */,
 				OBJ_2187 /* PBXTargetDependency */,
-				OBJ_2188 /* PBXTargetDependency */,
 				OBJ_2189 /* PBXTargetDependency */,
 				OBJ_2190 /* PBXTargetDependency */,
 				OBJ_2191 /* PBXTargetDependency */,
@@ -13590,7 +13175,6 @@
 				OBJ_2628 /* PBXTargetDependency */,
 				OBJ_2629 /* PBXTargetDependency */,
 				OBJ_2630 /* PBXTargetDependency */,
-				OBJ_2631 /* PBXTargetDependency */,
 				OBJ_2632 /* PBXTargetDependency */,
 				OBJ_2633 /* PBXTargetDependency */,
 				OBJ_2634 /* PBXTargetDependency */,
@@ -13650,7 +13234,6 @@
 				OBJ_2367 /* PBXTargetDependency */,
 				OBJ_2368 /* PBXTargetDependency */,
 				OBJ_2369 /* PBXTargetDependency */,
-				OBJ_2370 /* PBXTargetDependency */,
 				OBJ_2371 /* PBXTargetDependency */,
 				OBJ_2372 /* PBXTargetDependency */,
 				OBJ_2373 /* PBXTargetDependency */,
@@ -13710,7 +13293,6 @@
 				OBJ_2461 /* PBXTargetDependency */,
 				OBJ_2462 /* PBXTargetDependency */,
 				OBJ_2463 /* PBXTargetDependency */,
-				OBJ_2464 /* PBXTargetDependency */,
 				OBJ_2465 /* PBXTargetDependency */,
 				OBJ_2466 /* PBXTargetDependency */,
 				OBJ_2467 /* PBXTargetDependency */,
@@ -13771,7 +13353,6 @@
 				OBJ_2568 /* PBXTargetDependency */,
 				OBJ_2569 /* PBXTargetDependency */,
 				OBJ_2570 /* PBXTargetDependency */,
-				OBJ_2571 /* PBXTargetDependency */,
 				OBJ_2572 /* PBXTargetDependency */,
 				OBJ_2573 /* PBXTargetDependency */,
 				OBJ_2574 /* PBXTargetDependency */,
@@ -13820,7 +13401,6 @@
 				OBJ_2696 /* PBXTargetDependency */,
 				OBJ_2697 /* PBXTargetDependency */,
 				OBJ_2698 /* PBXTargetDependency */,
-				OBJ_2699 /* PBXTargetDependency */,
 				OBJ_2700 /* PBXTargetDependency */,
 				OBJ_2701 /* PBXTargetDependency */,
 				OBJ_2702 /* PBXTargetDependency */,
@@ -13865,7 +13445,6 @@
 				OBJ_2745 /* PBXTargetDependency */,
 				OBJ_2746 /* PBXTargetDependency */,
 				OBJ_2747 /* PBXTargetDependency */,
-				OBJ_2748 /* PBXTargetDependency */,
 				OBJ_2749 /* PBXTargetDependency */,
 				OBJ_2750 /* PBXTargetDependency */,
 				OBJ_2751 /* PBXTargetDependency */,
@@ -13906,7 +13485,6 @@
 				OBJ_2823 /* PBXTargetDependency */,
 				OBJ_2824 /* PBXTargetDependency */,
 				OBJ_2825 /* PBXTargetDependency */,
-				OBJ_2826 /* PBXTargetDependency */,
 				OBJ_2827 /* PBXTargetDependency */,
 				OBJ_2828 /* PBXTargetDependency */,
 				OBJ_2829 /* PBXTargetDependency */,
@@ -13962,7 +13540,6 @@
 				OBJ_2948 /* PBXTargetDependency */,
 				OBJ_2949 /* PBXTargetDependency */,
 				OBJ_2950 /* PBXTargetDependency */,
-				OBJ_2951 /* PBXTargetDependency */,
 				OBJ_2952 /* PBXTargetDependency */,
 				OBJ_2953 /* PBXTargetDependency */,
 				OBJ_2954 /* PBXTargetDependency */,
@@ -14016,7 +13593,6 @@
 				OBJ_3313 /* PBXTargetDependency */,
 				OBJ_3314 /* PBXTargetDependency */,
 				OBJ_3315 /* PBXTargetDependency */,
-				OBJ_3316 /* PBXTargetDependency */,
 				OBJ_3317 /* PBXTargetDependency */,
 				OBJ_3318 /* PBXTargetDependency */,
 				OBJ_3319 /* PBXTargetDependency */,
@@ -14061,7 +13637,6 @@
 				OBJ_3396 /* PBXTargetDependency */,
 				OBJ_3397 /* PBXTargetDependency */,
 				OBJ_3398 /* PBXTargetDependency */,
-				OBJ_3399 /* PBXTargetDependency */,
 				OBJ_3400 /* PBXTargetDependency */,
 				OBJ_3401 /* PBXTargetDependency */,
 				OBJ_3402 /* PBXTargetDependency */,
@@ -14103,7 +13678,6 @@
 				OBJ_3445 /* PBXTargetDependency */,
 				OBJ_3446 /* PBXTargetDependency */,
 				OBJ_3447 /* PBXTargetDependency */,
-				OBJ_3448 /* PBXTargetDependency */,
 				OBJ_3449 /* PBXTargetDependency */,
 				OBJ_3450 /* PBXTargetDependency */,
 				OBJ_3451 /* PBXTargetDependency */,
@@ -14150,7 +13724,6 @@
 				OBJ_3662 /* PBXTargetDependency */,
 				OBJ_3663 /* PBXTargetDependency */,
 				OBJ_3664 /* PBXTargetDependency */,
-				OBJ_3665 /* PBXTargetDependency */,
 				OBJ_3666 /* PBXTargetDependency */,
 				OBJ_3667 /* PBXTargetDependency */,
 				OBJ_3668 /* PBXTargetDependency */,
@@ -14193,7 +13766,6 @@
 				OBJ_3719 /* PBXTargetDependency */,
 				OBJ_3720 /* PBXTargetDependency */,
 				OBJ_3721 /* PBXTargetDependency */,
-				OBJ_3722 /* PBXTargetDependency */,
 				OBJ_3723 /* PBXTargetDependency */,
 				OBJ_3724 /* PBXTargetDependency */,
 				OBJ_3725 /* PBXTargetDependency */,
@@ -14251,7 +13823,6 @@
 				OBJ_3835 /* PBXTargetDependency */,
 				OBJ_3836 /* PBXTargetDependency */,
 				OBJ_3837 /* PBXTargetDependency */,
-				OBJ_3838 /* PBXTargetDependency */,
 				OBJ_3839 /* PBXTargetDependency */,
 				OBJ_3840 /* PBXTargetDependency */,
 				OBJ_3841 /* PBXTargetDependency */,
@@ -14294,7 +13865,6 @@
 				OBJ_3880 /* PBXTargetDependency */,
 				OBJ_3881 /* PBXTargetDependency */,
 				OBJ_3882 /* PBXTargetDependency */,
-				OBJ_3883 /* PBXTargetDependency */,
 				OBJ_3884 /* PBXTargetDependency */,
 				OBJ_3885 /* PBXTargetDependency */,
 				OBJ_3886 /* PBXTargetDependency */,
@@ -14337,7 +13907,6 @@
 				OBJ_3935 /* PBXTargetDependency */,
 				OBJ_3936 /* PBXTargetDependency */,
 				OBJ_3937 /* PBXTargetDependency */,
-				OBJ_3938 /* PBXTargetDependency */,
 				OBJ_3939 /* PBXTargetDependency */,
 				OBJ_3940 /* PBXTargetDependency */,
 				OBJ_3941 /* PBXTargetDependency */,
@@ -14404,7 +13973,6 @@
 				OBJ_4095 /* PBXTargetDependency */,
 				OBJ_4096 /* PBXTargetDependency */,
 				OBJ_4097 /* PBXTargetDependency */,
-				OBJ_4098 /* PBXTargetDependency */,
 				OBJ_4099 /* PBXTargetDependency */,
 				OBJ_4100 /* PBXTargetDependency */,
 				OBJ_4101 /* PBXTargetDependency */,
@@ -14428,7 +13996,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_1546 /* PBXTargetDependency */,
 				OBJ_1547 /* PBXTargetDependency */,
 				OBJ_1548 /* PBXTargetDependency */,
 				OBJ_1549 /* PBXTargetDependency */,
@@ -14485,7 +14052,6 @@
 				OBJ_2283 /* PBXTargetDependency */,
 				OBJ_2284 /* PBXTargetDependency */,
 				OBJ_2285 /* PBXTargetDependency */,
-				OBJ_2286 /* PBXTargetDependency */,
 				OBJ_2287 /* PBXTargetDependency */,
 				OBJ_2288 /* PBXTargetDependency */,
 				OBJ_2289 /* PBXTargetDependency */,
@@ -14515,7 +14081,6 @@
 				OBJ_3755 /* PBXTargetDependency */,
 				OBJ_3756 /* PBXTargetDependency */,
 				OBJ_3757 /* PBXTargetDependency */,
-				OBJ_3758 /* PBXTargetDependency */,
 				OBJ_3759 /* PBXTargetDependency */,
 				OBJ_3760 /* PBXTargetDependency */,
 				OBJ_3761 /* PBXTargetDependency */,
@@ -14589,7 +14154,6 @@
 				OBJ_4190 /* PBXTargetDependency */,
 				OBJ_4191 /* PBXTargetDependency */,
 				OBJ_4192 /* PBXTargetDependency */,
-				OBJ_4193 /* PBXTargetDependency */,
 				OBJ_4194 /* PBXTargetDependency */,
 				OBJ_4195 /* PBXTargetDependency */,
 				OBJ_4196 /* PBXTargetDependency */,
@@ -14645,7 +14209,6 @@
 				OBJ_4265 /* PBXTargetDependency */,
 				OBJ_4266 /* PBXTargetDependency */,
 				OBJ_4267 /* PBXTargetDependency */,
-				OBJ_4268 /* PBXTargetDependency */,
 				OBJ_4269 /* PBXTargetDependency */,
 				OBJ_4270 /* PBXTargetDependency */,
 				OBJ_4271 /* PBXTargetDependency */,
@@ -15037,7 +14600,6 @@
 				OBJ_1358 /* PBXTargetDependency */,
 				OBJ_1360 /* PBXTargetDependency */,
 				OBJ_1362 /* PBXTargetDependency */,
-				OBJ_1364 /* PBXTargetDependency */,
 				OBJ_1366 /* PBXTargetDependency */,
 				OBJ_1368 /* PBXTargetDependency */,
 				OBJ_1370 /* PBXTargetDependency */,
@@ -15107,7 +14669,6 @@
 				OBJ_1484 /* PBXTargetDependency */,
 				OBJ_1485 /* PBXTargetDependency */,
 				OBJ_1486 /* PBXTargetDependency */,
-				OBJ_1487 /* PBXTargetDependency */,
 				OBJ_1488 /* PBXTargetDependency */,
 				OBJ_1489 /* PBXTargetDependency */,
 				OBJ_1490 /* PBXTargetDependency */,
@@ -15177,7 +14738,6 @@
 				OBJ_3568 /* PBXTargetDependency */,
 				OBJ_3569 /* PBXTargetDependency */,
 				OBJ_3570 /* PBXTargetDependency */,
-				OBJ_3571 /* PBXTargetDependency */,
 				OBJ_3572 /* PBXTargetDependency */,
 				OBJ_3573 /* PBXTargetDependency */,
 				OBJ_3574 /* PBXTargetDependency */,
@@ -15227,7 +14787,6 @@
 			targets = (
 				"swift_blog::App" /* App */,
 				"swift_blog::AppTests" /* AppTests */,
-				"Core::Async" /* Async */,
 				"VaporExt::AsyncExt" /* AsyncExt */,
 				"Auth::SwiftPMPackageDescription" /* AuthPackageDescription */,
 				"Auth::Authentication" /* Authentication */,
@@ -15352,28 +14911,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_1385 /* AppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_1498 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_1499 /* Async+NIO.swift in Sources */,
-				OBJ_1500 /* AsyncError.swift in Sources */,
-				OBJ_1501 /* Collection+Future.swift in Sources */,
-				OBJ_1502 /* Deprecated.swift in Sources */,
-				OBJ_1503 /* Exports.swift in Sources */,
-				OBJ_1504 /* Future+DoCatch.swift in Sources */,
-				OBJ_1505 /* Future+Flatten.swift in Sources */,
-				OBJ_1506 /* Future+Global.swift in Sources */,
-				OBJ_1507 /* Future+Map.swift in Sources */,
-				OBJ_1508 /* Future+Transform.swift in Sources */,
-				OBJ_1509 /* Future+Variadic.swift in Sources */,
-				OBJ_1510 /* Future+Void.swift in Sources */,
-				OBJ_1511 /* FutureType.swift in Sources */,
-				OBJ_1512 /* QueueHandler.swift in Sources */,
-				OBJ_1513 /* Worker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -17040,11 +16577,6 @@
 			target = "VaporExt::AsyncExt" /* AsyncExt */;
 			targetProxy = FB8A1906219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_1364 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1907219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_1366 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -17310,11 +16842,6 @@
 			target = "VaporExt::AsyncExt" /* AsyncExt */;
 			targetProxy = FB8A1972219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_1487 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1973219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_1488 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -17349,46 +16876,6 @@
 			isa = PBXTargetDependency;
 			target = "swift-nio::CNIOLinux" /* CNIOLinux */;
 			targetProxy = FB8A197A219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1522 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::NIO" /* NIO */;
-			targetProxy = FB8A166F219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1523 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::CNIOSHA1" /* CNIOSHA1 */;
-			targetProxy = FB8A1670219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1524 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::NIOPriorityQueue" /* NIOPriorityQueue */;
-			targetProxy = FB8A1671219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1525 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::NIOConcurrencyHelpers" /* NIOConcurrencyHelpers */;
-			targetProxy = FB8A1672219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1526 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::CNIOAtomics" /* CNIOAtomics */;
-			targetProxy = FB8A1673219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1527 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::CNIODarwin" /* CNIODarwin */;
-			targetProxy = FB8A1674219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1528 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "swift-nio::CNIOLinux" /* CNIOLinux */;
-			targetProxy = FB8A1675219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1546 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A18D3219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_1547 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -17580,11 +17067,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A179B219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_1652 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A179C219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_1653 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -17700,11 +17182,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1753219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_1822 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1754219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_1823 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -17775,11 +17252,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1744219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_1885 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1745219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_1886 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -17834,11 +17306,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A166D219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_1945 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A166E219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_1946 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -17904,11 +17371,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::COperatingSystem" /* COperatingSystem */;
 			targetProxy = FB8A1692219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_2009 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1693219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_2010 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -18005,11 +17467,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A171E219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2084 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A171F219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2085 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -18094,11 +17551,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1781219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_2188 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1782219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_2189 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -18300,11 +17752,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A18A8219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2286 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A18A9219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -18450,11 +17897,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1805219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2370 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1806219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2371 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -18599,11 +18041,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A184E219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_2464 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A184F219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_2465 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -18755,11 +18192,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A186C219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2571 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A186D219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2572 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -18855,11 +18287,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A17F1219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2631 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A17F2219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2632 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -18950,11 +18377,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1680219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2699 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1681219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2700 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -19025,11 +18447,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A17AB219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2748 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A17AC219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2749 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -19090,11 +18507,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1737219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_2789 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1738219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_2790 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -19144,11 +18556,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::COperatingSystem" /* COperatingSystem */;
 			targetProxy = FB8A1709219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_2826 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A170A219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_2827 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -19274,11 +18681,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A17D4219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_2951 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A17D5219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_2952 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -19640,11 +19042,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1831219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3316 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1832219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3317 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -19760,11 +19157,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1815219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3399 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1816219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3400 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -19819,11 +19211,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::COperatingSystem" /* COperatingSystem */;
 			targetProxy = FB8A16FB219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_3448 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A16FC219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_3449 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20100,11 +19487,6 @@
 			target = "VaporExt::AsyncExt" /* AsyncExt */;
 			targetProxy = FB8A193C219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3571 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A193D219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3572 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -20175,11 +19557,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A17BD219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3665 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A17BE219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3666 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -20239,11 +19616,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A16E1219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_3722 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A16E2219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_3723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20310,11 +19682,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A187E219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3758 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A187F219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3759 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -20380,11 +19747,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A16EE219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3838 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A16EF219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3839 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -20445,11 +19807,6 @@
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A16D2219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_3883 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A16D3219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_3884 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -20509,11 +19866,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A16C4219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_3938 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A16C5219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_3939 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20694,11 +20046,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A1763219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_4098 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A1764219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_4099 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -20915,11 +20262,6 @@
 			target = "VaporExt::AsyncExt" /* AsyncExt */;
 			targetProxy = FB8A18D2219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
-		OBJ_4193 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A18DB219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
 		OBJ_4194 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "swift-nio::NIO" /* NIO */;
@@ -21044,11 +20386,6 @@
 			isa = PBXTargetDependency;
 			target = "Core::Debugging" /* Debugging */;
 			targetProxy = FB8A16B5219BB742002F85C5 /* PBXContainerItemProxy */;
-		};
-		OBJ_4268 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "Core::Async" /* Async */;
-			targetProxy = FB8A16B6219BB742002F85C5 /* PBXContainerItemProxy */;
 		};
 		OBJ_4269 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -21288,74 +20625,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = AppTests;
-			};
-			name = Release;
-		};
-		OBJ_1496 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIOSHA1/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIOAtomics/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIODarwin/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIOLinux/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8259747421748864573",
-				);
-				INFOPLIST_FILE = swift_blog.xcodeproj/Async_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Async;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Async;
-			};
-			name = Debug;
-		};
-		OBJ_1497 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIOSHA1/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIOAtomics/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIODarwin/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio.git--1889493976466033006/Sources/CNIOLinux/include",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support.git--8259747421748864573",
-				);
-				INFOPLIST_FILE = swift_blog.xcodeproj/Async_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Async;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = Async;
 			};
 			name = Release;
 		};
@@ -25930,15 +25199,6 @@
 			buildConfigurations = (
 				OBJ_1382 /* Debug */,
 				OBJ_1383 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_1495 /* Build configuration list for PBXNativeTarget "Async" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_1496 /* Debug */,
-				OBJ_1497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
