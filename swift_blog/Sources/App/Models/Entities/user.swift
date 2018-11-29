@@ -42,6 +42,21 @@ extension User {
         return children(\.userId)
     }
     
+    func isExist(on req: Request) -> Future<User?> {
+        return req.requestPooledConnection(to: .mysql).flatMap { conn in
+            defer { try? req.releasePooledConnection(conn, to: .mysql) }
+            return User.query(on: conn)
+                .filter(\.username == self.username)
+                .filter(\.password == self.password)
+                .first()
+        }
+    }
+    func create(on req: Request) -> Future<User> {
+        return req.requestPooledConnection(to: .mysql).flatMap { conn in
+            defer { try? req.releasePooledConnection(conn, to: .mysql) }
+            return self.create(on: conn)
+        }
+    }
     static func query(by id: Int,on req: Request) -> Future<User> {
         return req.requestPooledConnection(to: .mysql).flatMap { conn in
             defer { try? req.releasePooledConnection(conn, to: .mysql) }

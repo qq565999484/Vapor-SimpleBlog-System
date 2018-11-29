@@ -14,4 +14,9 @@ public func migrate(migrations: inout MigrationConfig) throws {
     migrations.add(model: HomeConfig.self, database: .mysql)
     migrations.add(model: Comment.self, database: .mysql)
     migrations.add(model: Category.self, database: .mysql)
+    
+    
+    
+    
+    
 }

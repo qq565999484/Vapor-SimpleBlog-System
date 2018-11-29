@@ -200,7 +200,7 @@ final class AuthController: RouteCollection {
     }
     func loginGet(_ req: Request) throws -> Future<View> {
 
-        print(try req.session().data)
+        
         //这快吧用户id记住就行了
         guard let dataID = try req.session()["userId"]  else {
             return try req.view().render("login")
@@ -218,9 +218,20 @@ final class AuthController: RouteCollection {
                          password: loginFields.password,
                            lastIp: req.ip)
         //通过dataID 查出所在用户
-        return try user.login(req).flatMap{
-            //假如用户在
-            return try req.view().render("account", $0)
+        let adminUser = User.init(username: "admin", password: "123456", lastIp: req.ip)
+  
+        return adminUser.isExist(on: req).flatMap {
+            //如果存在-则登录 - 不存在则创建后登录
+            if $0 == nil {
+                return adminUser.create(on: req).flatMap {
+                    return try req.view().render("account", $0)
+                }
+            }else {
+                return try user.login(req).flatMap {
+                    return try req.view().render("account", $0)
+                }
+            }
+            
         }
     }
     
